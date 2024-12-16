@@ -1,0 +1,42 @@
+
+body, #app {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.success{
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+
+
+}
+
+.preview{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+  width: 200px;
+  padding: 10px;
+}
+.preview-item{
+  height: 30px;
+  width: 200px;
+  line-height: 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-left: 10px;
+
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.preview-item:hover{
+  background-color: #f0f0f0;
+}
